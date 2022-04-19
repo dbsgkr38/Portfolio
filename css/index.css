@@ -289,7 +289,7 @@ footer small {
   margin: auto;
 }
 
-.charts .chart-inner H2{
+.charts .chart-inner h2{
   margin: auto;
   text-align: center;
   font-size: 30px;
@@ -521,6 +521,8 @@ footer small {
 }
 
 @media screen and (min-width: 1200px) {
+  
+
   .thumbnail .caption {
     padding: 20% 0;
   }
@@ -611,6 +613,10 @@ footer small {
   .charts{
     height: 1000px;
   }
+
+  .charts .chart-inner{
+    height: 900px;
+  }
   .charts .ch0{
     left: -700px;
     top: 90px;
@@ -634,11 +640,13 @@ footer small {
     left: 700px;
   }
 
-  .charts .des{
+  .charts h2.des{
     position: absolute;
-    top: 500px;
-    left: 900px;
     margin: auto;
+    text-align: center;
+    top: 600px;
+    left: 780px;
+    width: 380px;
   }
   .charts .ch5{
     left: -350px;
