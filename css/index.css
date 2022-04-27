@@ -119,6 +119,7 @@ main .container {
     position:relative;
     overflow:hidden;
     width: 100%;
+    height: 800px;
 }
  
 
@@ -435,9 +436,7 @@ footer small {
 /*MEDIA QUERY*/
 
 @media screen and (min-width: 770px) {
-  body{
-    background: #ff0;
-  }
+
 
   /* --------------Logo and Navigation-------------  */
   .navbar-default .navbar-collapse {
@@ -467,6 +466,16 @@ footer small {
   background: #D38947;
 }
 
+
+/* -------------portfolio------------- */
+
+.thumbnail .btn{
+  position: absolute;
+  bottom: 3%;
+  width: 120px;
+}
+
+/* ----------about me---------- */
 
 #about .container .description .profile,
 #about .container .description .Education,
@@ -526,6 +535,7 @@ footer small {
 
 @media screen and (min-width: 1200px) {
   
+  /* ---------portfolio-------- */
 
   .thumbnail .caption {
     padding: 20% 0;
@@ -540,6 +550,15 @@ footer small {
     text-align: center;
   }
 
+
+  main .thumbnail{
+    height: 650px;
+  }
+
+  main .thumbnail .btn{
+    width: 200px;
+    margin: auto;
+  }
   main .thumbnail .btn .git{
     width: 80px;
   }
