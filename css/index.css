@@ -16,7 +16,7 @@ p {
   font-family: 'Merriweather', serif;
 }
 
-/*HEADER*/
+/*--------------Logo and Navigation---------------*/
 
 header, .navbar-default {
   background-color: #ddd;
@@ -76,7 +76,7 @@ header nav a:hover:after, .navbar-header a:hover:after {
   color: #D38947;
 }
 
-/*MAIN*/
+/*--------------Portfolio---------------*/
 
 main {
   background-color: #ddd;
@@ -197,6 +197,7 @@ main .container {
   max-width: 100%;
   margin-bottom: 20px;
 }
+
 .caption {
     position: absolute;
     top: 0;
@@ -222,7 +223,6 @@ main .container {
   height: 200px;
 }
 
-/*ASIDE*/
 
 aside {
   background-color: #D38947;
@@ -238,7 +238,7 @@ aside h3 {
   height: 100%;
 }
 
-/*FOOTER*/
+/* --------------PROGRAM-------------- */
 
 footer {
   background-color: #333;
@@ -276,7 +276,6 @@ footer small {
   margin-top: 20px;
 }
 
-/* chart */
 .charts{
   width: 100%;
   max-width: 100%;
@@ -375,7 +374,7 @@ footer small {
   cursor: pointer;
 }
 
-/* ABOUT ME */
+/* -----------------About me---------------- */
 #about{
   width: 100%;
   max-width: 100%;
@@ -439,6 +438,8 @@ footer small {
   body{
     background: #ff0;
   }
+
+  /* --------------Logo and Navigation-------------  */
   .navbar-default .navbar-collapse {
     border: none;
     text-align: center;
@@ -476,6 +477,9 @@ footer small {
 #about .container .description .Education p span{
   margin-left : 215px;
 }
+
+
+/* --------------PROGRAM-------------- */
 
 .charts{
   display: flex;
@@ -543,6 +547,9 @@ footer small {
   main .thumbnail .btn .readme{
     width: 80px;
   }
+
+
+  /* --------------About Me------------- */
   #about{
     width: 100%;
     margin: auto;
@@ -610,6 +617,7 @@ footer small {
   }
 
 
+  /* ------------------PROGRAM------------------ */
   .charts{
     height: 1000px;
   }
