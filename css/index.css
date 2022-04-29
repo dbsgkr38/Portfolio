@@ -168,6 +168,7 @@ main .container {
   position: relative;
   z-index: 10;
   transition: all .3s ease-in-out;
+  bottom: 0;
 }
 
 .col-xs-12 .thumbnail button:hover{
@@ -184,6 +185,7 @@ main .container {
   margin-top: 20px;
   margin-bottom: 20px; */
   border: none;
+
 }
 
 .col-xs-12 .thumbnail button.readme{
@@ -191,6 +193,7 @@ main .container {
   margin-top: 20px;
   margin-bottom: 20px;
   border: none;
+
 }
 
 .col-xs-12 .thumbnail img{
@@ -468,6 +471,7 @@ footer small {
 }
 
 
+
 /* -------------portfolio------------- */
 
 .thumbnail .btn{
@@ -475,6 +479,8 @@ footer small {
   bottom: 3%;
   width: 120px;
 }
+
+
 
 /* ----------about me---------- */
 
