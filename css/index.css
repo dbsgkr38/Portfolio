@@ -379,6 +379,20 @@ footer small {
   cursor: pointer;
 }
 
+
+.typing-txt{display: none;}
+.typing {  
+  display: inline-block; 
+  animation-name: cursor; 
+  animation-duration: 0.3s; 
+  animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+  0%{border-right: 1px solid #fff} 
+  50%{border-right: 1px solid #000} 
+  100%{border-right: 1px solid #fff} 
+}
+
 /* -----------------About me---------------- */
 #about{
   width: 100%;
@@ -645,53 +659,55 @@ footer small {
 
   /* ------------------PROGRAM------------------ */
   .charts{
-    height: 1000px;
+    height: 800px;
+    width: 1200px;
   }
 
   .charts .chart-inner{
     height: 900px;
   }
   .charts .ch0{
-    left: -700px;
+    left: -400px;
     top: 90px;
+    width: 300px;
   }
   
   .charts .ch1{
-    left: -350px;
+    left: -000px;
     top: -100px;
   }
     
   .charts .ch2{
-    left: 00px;
+    left: 400px;
     top: -290px;
   }
   .charts .ch3{
-    left: 350px;
-    top: -480px;
+    left: 200px;
+    top: -180px;
   }
   .charts .ch4{
-    top: -670px;
-    left: 700px;
+    top: -370px;
+    left: -200px;
   }
 
   .charts h2.des{
     position: absolute;
     margin: auto;
     text-align: center;
-    top: 600px;
-    left: 780px;
-    width: 380px;
+    top: 750px;
+    left: 500px;
+    width: 200px;
   }
   .charts .ch5{
     left: -350px;
-    top: -400px;
+    top: -200px;
   }
   .charts .ch6{
     left: 00px;
-    top: -590px;
+    top: -390px;
   }
   .charts .ch7{
-    top: -780px;
+    top: -580px;
     left: 350px;
   }
 }
