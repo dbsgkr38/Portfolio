@@ -494,6 +494,14 @@ footer small {
   width: 120px;
 }
 
+main section {
+  height: 800px;
+}
+
+main section .row .thumbnail{
+  height: 800px;
+}
+
 
 
 /* ----------about me---------- */
